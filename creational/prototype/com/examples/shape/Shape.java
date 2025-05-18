@@ -2,8 +2,7 @@ package creational.prototype.com.examples.shape;
 
 public abstract class Shape {
     
-    Integer x;
-    Integer y;
+    Integer x, y;
     String color;
 
     public Shape(Integer x, Integer y, String color) {

@@ -6,7 +6,7 @@ public class Client {
 
         Shape circle = new Circle(10, 20, "red", 5);
 
-        // // ((Circle) circle).setRadius(100);
+        // ((Circle) circle).setRadius(100);
         // //     // when u change in the original the clone also changes
 
         Shape clonedCircle = circle.clone();

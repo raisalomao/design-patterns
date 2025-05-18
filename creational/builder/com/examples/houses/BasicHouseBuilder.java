@@ -5,7 +5,7 @@ public class BasicHouseBuilder implements Builder {
     private House house;
     
     public BasicHouseBuilder() {
-        house = new House(0, 0, 0);
+        house = new House(0, 0, 0, "");
     }
     
     @Override

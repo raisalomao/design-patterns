@@ -9,10 +9,11 @@ public class House {
     private String roof;
     private String garage;
 
-    public House(int windows, int doors, int room) {
+    public House(int windows, int doors, int room, String garage) {
         this.windows = windows;
         this.doors = doors;
         this.room = room;
+        this.garage = garage;
     }
 
     public int getWindows() {

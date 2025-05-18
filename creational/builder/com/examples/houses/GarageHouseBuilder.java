@@ -5,7 +5,7 @@ public class GarageHouseBuilder implements Builder {
     private House house;
     
     public GarageHouseBuilder() {
-        house = new House(0, 0, 0);
+        house = new House(0, 0, 0, "");
     }
     
     @Override
