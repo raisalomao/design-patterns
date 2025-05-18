@@ -1,0 +1,23 @@
+Client:
+    (has a director and a builder)
+
+    Client
+
+
+Director:
+    (constructs an object using the Builder interface)
+
+    Director
+
+
+ConcreteBuilder:
+    (constructs and assembles parts of the product by implementing the Builder interface)
+
+    BasicHouseBuilder
+    GarageHouseBuilder
+
+
+Product:
+    (represents the complex object under construction)
+
+    House
