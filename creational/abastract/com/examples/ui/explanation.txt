@@ -5,17 +5,30 @@ Client:
 AbstractFactory:
     (declares an interface for operations that create abstract product objects)
 
+    FurnitureFactory
+
 
 ConcreteFactory:
 
+    VictorianFurnitureFactory
+    ModernFurnitureFactory
 
 
 AbstractProduct:
+    (declares an interface for a type of product object)
 
+    Sofa
+    Chair
+    Table
 
 
 Product:
+    (who's implements the abstract product)
 
+    VictorianSofa
+    VictorianTable
+    VictorianChair
 
-
-
+    MordernSofa
+    ModernTable
+    ModernChair

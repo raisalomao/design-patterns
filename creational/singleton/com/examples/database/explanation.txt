@@ -1,0 +1,9 @@
+Singleton:
+    (defines an Instance operation that lets clients access its unique instance)
+
+    Database
+
+Client:
+    (access a Singleton instance solely through Singleton's Instance operation)
+
+    Client

@@ -1,0 +1,17 @@
+Client:
+    (creates a new object by asking a prototype to clone itself)
+
+    Client
+
+
+Prototype:
+    (declares an interface/abstract class for cloning itself)
+
+    Shape
+
+
+ConcretePrototype:
+    (implements an operation for cloning itself.)
+
+    Circle
+    Retangle

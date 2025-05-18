@@ -16,7 +16,7 @@ public class Client {
         System.out.println("Victorian Sofa: " + victorianSofa);
 
         // Create a Modern furniture factory
-        FurnitureFactory modernFactory = new VictorianFurnitureFactory();
+        FurnitureFactory modernFactory = new ModernFurnitureFactory();
         
         Chair modernChair = modernFactory.createChair();
         Table modernTable = modernFactory.createTable();
