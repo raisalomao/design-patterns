@@ -1,0 +1,21 @@
+Client:
+    (uses only interfaces declared by AbstractFactory and AbstractProduct classes)
+
+
+AbstractFactory:
+    (declares an interface for operations that create abstract product objects)
+
+
+ConcreteFactory:
+
+
+
+AbstractProduct:
+
+
+
+Product:
+
+
+
+
